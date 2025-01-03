@@ -1,0 +1,49 @@
+.gradient-background {
+  background: linear-gradient(300deg, #474E93, #69247C, #A294F9);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.slide {
+  max-width: 900px;  /* Définir une largeur maximale pour le carrousel */
+  margin: 0 auto;    /* Centrer le carrousel horizontalement */
+  padding: 20px;     /* Ajouter un peu de marge autour du carrousel (facultatif) */
+}
+
+#carouselExampleAutoplaying .carousel-inner img {
+  width: 100%; /* Adapter les images à la largeur du carrousel */
+  height: auto; /* Garder les proportions des images */
+}
+
+/* Optionnel : si vous voulez que les images ne prennent pas toute la largeur du carrousel */
+.carousel-item img {
+  width: 50%; /* Réduire la largeur des images (modifiez selon votre besoin) */
+  margin: 0 auto; /* Centrer l'image dans chaque item */
+  display: block; /* Assurez-vous que l'image est un bloc pour le centrage */
+}
+
+.audiowide-regular {
+  font-family: "Audiowide", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
