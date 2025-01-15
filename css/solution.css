@@ -23,21 +23,20 @@
 }
 
 .slide {
-  max-width: 900px;  /* Définir une largeur maximale pour le carrousel */
-  margin: 0 auto;    /* Centrer le carrousel horizontalement */
-  padding: 20px;     /* Ajouter un peu de marge autour du carrousel (facultatif) */
+  max-width: 900px;  
+  margin: 0 auto;    
+  padding: 20px;     
 }
 
 #carouselExampleAutoplaying .carousel-inner img {
-  width: 100%; /* Adapter les images à la largeur du carrousel */
-  height: auto; /* Garder les proportions des images */
+  width: 100%; 
+  height: auto; 
 }
 
-/* Optionnel : si vous voulez que les images ne prennent pas toute la largeur du carrousel */
 .carousel-item img {
-  width: 50%; /* Réduire la largeur des images (modifiez selon votre besoin) */
-  margin: 0 auto; /* Centrer l'image dans chaque item */
-  display: block; /* Assurez-vous que l'image est un bloc pour le centrage */
+  width: 50%;
+  margin: 0 auto; 
+  display: block; 
 }
 
 .audiowide-regular {
@@ -46,4 +45,20 @@
   font-style: normal;
 }
 
+.history {
+  background: #E8F9FF;
+  border-radius: 8px;
+  margin: 3% 4% 0% 4%;
+  border-radius: 10px;
+  padding: 3%;
+  border-left: 3px solid #C5BAFF;
+  border-right: 3px solid #C5BAFF;
+  border-top: 3px solid #C5BAFF;
+  border-bottom: 3px solid #C5BAFF;
+  transition: 0.5s;
+}
 
+a {
+  text-decoration: none; 
+  color: inherit; 
+}
